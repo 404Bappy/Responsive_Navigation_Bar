@@ -11,6 +11,7 @@ body{
 }
 
 nav{
+    
     background: #0082e6;
     height: 80px;
     width: 100%
@@ -98,7 +99,7 @@ a.active,a:hover{
         font-size: 20px;
     }
 
-    a:hover, a.active{
+    a:hover,a.active{
         background: none;
         color: #0082e6;
     }
@@ -107,8 +108,9 @@ a.active,a:hover{
     }
 }
 
-section{
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
+.sctn{
+    background-color: rgb(231, 207, 108);
+    background-size:auto;
     height: calc(100vh - 80px);
 }
+
